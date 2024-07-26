@@ -1,0 +1,3 @@
+Use magisk v26.1 and do not upgrade. v27 does not work and breaks root. At the time of writing this at least.
+
+July 2024 --Whale Linguini
