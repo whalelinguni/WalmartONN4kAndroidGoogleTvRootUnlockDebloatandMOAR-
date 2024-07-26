@@ -1,4 +1,5 @@
 # WIP: I Bricked My Device
+## This is messy informations. 
 
 - I did not notice that it had updated after a wipe.
 - Flashed the bootloader; now it is bricked.
