@@ -314,15 +314,10 @@ $bloatware = @{
 function DebloatDevice {
     $adbPath = Get-AdbPath -scriptDir $scriptDir
 
-    if (-not $adbPath) {
-        Write-Message "ERROR; adb.exe is not available. Exiting."
-        return
-    }
-	
 	Write-Message "TITLE; Debloating"
 
     # Confirmation prompt
-    Write-Output "This script will give you the option to remove, disable, or skip bloatware packages."
+    Write-Output "This script will give you the option to remove, disable, or keep bloatware packages."
     $confirmation = Read-Host "Would you like to proceed now? (y/n)"
     if ($confirmation.ToLower() -ne 'y') {
         Write-Message "W; Abortion by user."
@@ -332,7 +327,7 @@ function DebloatDevice {
     foreach ($app in $bloatware.Keys) {
         $validInput = $false
         while (-not $validInput) {
-            $action = Read-Host "Do you want to (r)emove or (d)isable $app ($($bloatware[$app]))? (r/d)"
+            $action = Read-Host "Do you want to (r)emove, (d)isable, or (k)eep $app ($($bloatware[$app]))? (r/d/k)"
             switch ($action.ToLower()) {
                 'r' {
                     try {
@@ -362,14 +357,17 @@ function DebloatDevice {
                     }
                     $validInput = $true
                 }
+                'k' {
+                    Write-Message "#; Keeping $app ($($bloatware[$app]))."
+                    $validInput = $true
+                }
                 default {
-                    Write-Message "ERROR; Invalid input. Please enter 'r' to remove or 'd' to disable."
+                    Write-Message "ERROR; Invalid input. Please enter 'r' to remove, 'd' to disable, or 'k' to keep."
                 }
             }
         }
     }
 }
-
 
 SplashMe $splashLoad
 Write-HyphenToEnd
@@ -378,4 +376,10 @@ Write-Message "#; Script loading ..."
 Write-Message "-; Checking enviorment ..."
 
 DebloatDevice
-pause
+Write-Host ""
+Write-Host "Ok. All done. Goodbye."
+read-host "Press the 7th mouse button to exit."
+Write-Host "incorrect."
+Start-Sleep -Seconds 3
+exit
+# rofls. (there is no 7th mouse button)
