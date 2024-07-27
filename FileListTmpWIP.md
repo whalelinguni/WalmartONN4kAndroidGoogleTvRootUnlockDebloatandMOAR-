@@ -37,42 +37,42 @@
 - **payload-dumper-go_1.2.2_windows_amd64.7z** :: 1.29MB
 
 ## Firmwares-ONN_YOC/ONN_OTAZIP_Img_Rootable
-- **onn-YOC_OTAzZIP_IMG(Rootable).7z.001** :: 95MB
-  ...
+- **onn-YOC_OTAzZIP_IMG(Rootable).7z.001** :: 95MB  
+  ...  
 - **onn-YOC_OTAzZIP_IMG(Rootable).7z.007** :: 95MB
 - **onn-YOC_OTAzZIP_IMG(Rootable).7z.008** :: 29.76MB
 
 ## Firmwares-ONN_YOC/ONN_OTAZIP_Payload.bin_Rootable
 - **00.FILE-LIST.txt** :: 920B
-- **7f458c58073555f202dda7c4f0cd90b149ef98e1_2.7z.001** :: 95MB
-  ...
+- **7f458c58073555f202dda7c4f0cd90b149ef98e1_2.7z.001** :: 95MB  
+  ...  
 - **7f458c58073555f202dda7c4f0cd90b149ef98e1_2.7z.007** :: 95MB
 - **7f458c58073555f202dda7c4f0cd90b149ef98e1_2.7z.008** :: 30.96MB
 
 ## Firmwares-S905Y4-OTHER/Q8 S905Y4 v11.1.1.146 2405130911
-- **Q8 S905Y4 v11.1.1.146 2405130911.7z.001** :: 95MB
-  ...
+- **Q8 S905Y4 v11.1.1.146 2405130911.7z.001** :: 95MB  
+  ...  
 - **Q8 S905Y4 v11.1.1.146 2405130911.7z.008** :: 95MB
 - **Q8 S905Y4 v11.1.1.146 2405130911.7z.009** :: 78.37MB
 
 ## Firmwares-S905Y4-OTHER/s905y4-ap222-dv9135-atv-Viettel-IPTV-v11.4.21-2304041927-sbv3-signed
 - **00.FILE-LIST.txt** :: 1001B
-- **s905y4-ap222-dv9135-atv-Viettel-IPTV-v11.4.21-2304041927-sbv3-signed.7z.001** :: 95MB
-  ...
+- **s905y4-ap222-dv9135-atv-Viettel-IPTV-v11.4.21-2304041927-sbv3-signed.7z.001** :: 95MB  
+  ...  
 - **s905y4-ap222-dv9135-atv-Viettel-IPTV-v11.4.21-2304041927-sbv3-signed.7z.006** :: 95MB
 - **s905y4-ap222-dv9135-atv-Viettel-IPTV-v11.4.21-2304041927-sbv3-signed.7z.007** :: 66.75MB
 
 ## Firmwares-S905Y4-OTHER/T95_W2
 - **00.FILE-LIST.txt** :: 2.33KB
-- **T95_W2_2.7z.001** :: 95MB
-  ...
+- **T95_W2_2.7z.001** :: 95MB  
+  ...  
 - **T95_W2_2.7z.033** :: 95MB
 - **T95_W2_2.7z.034** :: 15.56MB
 
 ## Firmwares-S905Y4-OTHER/X98_S500
 - **00.FILE-LIST.txt** :: 2.47KB
-- **X98_S500_2.7z.001** :: 95MB
-  ...
+- **X98_S500_2.7z.001** :: 95MB  
+  ...  
 - **X98_S500_2.7z.034** :: 95MB
 - **X98_S500_2.7z.035** :: 42.55MB
 
